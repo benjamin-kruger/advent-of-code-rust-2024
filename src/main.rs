@@ -1,5 +1,7 @@
 mod day01;
 mod day02;
+mod day03;
+mod day11;
 
 fn main() {
     let args: Vec<String> = std::env::args().collect();
@@ -16,6 +18,8 @@ fn main() {
     match day {
         1 => day01::run(),
         2 => day02::run(),
+        3 => day03::run(),
+        11 => day11::run(),
         _ => println!("Day {} is not yet implemented", day),
     }
 }
