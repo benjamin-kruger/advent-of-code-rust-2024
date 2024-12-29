@@ -70,7 +70,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_g() {
+    fn test_sum_valid_middle_pages() {
         let input =
             std::fs::read_to_string("src/day05/test_input.txt").expect("Failed to read input");
         let (rules, pages) = parse_input(&input);
