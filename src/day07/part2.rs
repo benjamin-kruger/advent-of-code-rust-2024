@@ -1,4 +1,4 @@
-use crate::day07::part1::{parse_input, Problem};
+use crate::day07::part1::parse_input;
 use std::collections::HashSet;
 
 pub fn solve() {
